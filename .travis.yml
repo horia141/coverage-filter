@@ -22,4 +22,4 @@ script:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: $(npm-bin)/prepack-publish
+  script: $(npm bin)/prepack-publish
