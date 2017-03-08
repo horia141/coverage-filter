@@ -1,0 +1,31 @@
+{
+  "name": "coverage-filter",
+  "version": "0.0.0",
+  "description": "Filters coverage.json files with a whitelist of allowed source files. ",
+  "author": "Horia Coman <horia141@gmail.com>",
+  "scripts": {},
+  "bin": {
+    "coverage-filter": "index.js"
+  },
+  "keywords": [
+    "coverage",
+    "whitelist",
+    "filter"
+  ],
+  "respository": {
+    "type": "git",
+    "url": "git+https://github.com/horia141/coverage-filter.git"
+  },
+  "private": true,
+  "homepage": "https://github.com/horia141/coverage-filter#readme",
+  "filesPack": {
+    "src/index.js": "f:index.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "npm-prepack-publish": "^0.1.4"
+  }
+}

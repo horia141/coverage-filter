@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+- "node"
+
+cache:
+  directories:
+  - node_modules
+
+env:
+  global:
+
+
+install:
+- npm install --progress=false
+
+script:
+- true
+
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: $(npm-bin)/prepack-publish
