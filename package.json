@@ -16,12 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/horia141/coverage-filter.git"
   },
-  "private": true,
   "homepage": "https://github.com/horia141/coverage-filter#readme",
   "filesPack": {
     "src/index.js": "f:index.js"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "yargs": "^6.6.0"
   },
