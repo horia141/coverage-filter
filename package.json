@@ -1,6 +1,6 @@
 {
   "name": "coverage-filter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Filters coverage.json files with a whitelist of allowed source files. ",
   "author": "Horia Coman <horia141@gmail.com>",
   "scripts": {},
