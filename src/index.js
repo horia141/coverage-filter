@@ -8,9 +8,8 @@ const coverage = JSON.parse(coverageStr);
 
 const newCoverage = {};
 
-const re = new RegExp("^(src/.*[.]ts)$", "gi");
-
 for (var src in coverage) {
+    const re = new RegExp("^(src/.*[.]ts)$");
     const m = re.exec(src);
     if (m == null)
         continue;
