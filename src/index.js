@@ -13,6 +13,8 @@ for (var src in coverage) {
     const m = re.exec(src);
     if (m == null)
         continue;
+    if (src.includes('test.ts'))
+        continue;
     newCoverage[m[1]] = coverage[src];
 }
 
